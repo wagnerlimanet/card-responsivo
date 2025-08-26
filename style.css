@@ -1,34 +1,60 @@
-.card  {
-    border: none !important;
+.card {
+    border:none !important;
     }
 
-    .foto {
-        width: 80%;
+    .card:hover {
+        opacity: 0.9;
         }
 
+    .foto {
+        width: 83%;
+        }
+    
     .titulos {
-        background: #fff;
-        writing-mode:  sideways-lr;
         position: absolute;
         right: 0;
         bottom: 0;
+        width: 17%;
         height: 100%;
-        width: 20%;
+        padding: 10px;
         text-align: center;
-        text-transform: uppercase;
+        writing-mode: sideways-lr;
+        background: #f8f9fa;
         }
 
-        .titulo, .subtitulo {
-            margin: 0;
+        .titulos h2, .titulos h3 {
+            margin: 0px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
             }
 
-            .titulo {
-                font-size: 24px;
+            .titulos h2 {
+                font-size: 22px;
                 color: #333;
                 }
 
-            .subtitulo {
+            .titulos h3 {
                 font-size: 18px;
-                color: #333;
+                color: #a3a3a3;
                 font-weight: lighter;
                 }
+
+    .redessociais {
+        padding: 3% 12%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #f8f9fa;
+        }
+
+    .redessociais a:link, 
+    .redessociais a:visited, 
+    .redessociais a:active {
+        margin: 10px;
+        color: #000;
+        text-decoration: none;
+        }
+
+        .redessociais a:hover {
+            color: #333;
+            }
